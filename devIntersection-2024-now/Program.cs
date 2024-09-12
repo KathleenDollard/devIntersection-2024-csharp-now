@@ -3,7 +3,7 @@
 ConditionalPatterns.SomeIntegerPatterns(4);
 
 // InterpolatedStrings("Joe", null, new DateOnly(2017, 1, 15), 31_415_926.536m);
-// Nullable();
+NullableExample.Usage();
 
 RawString();
 
@@ -24,8 +24,3 @@ static void RawString()
     Console.WriteLine(RawStringLiteral.InterpolatedRaw("world"));
 }
 
-static void Nullable()
-{
-    NullableExample.Test(new("Mads", "Torgersen"));
-    NullableExample.Test(null);
-}
