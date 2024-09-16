@@ -12,8 +12,8 @@
     public DateTime CalculateExpiration(DateTime startDate)
     {
         var expirationDate = new DateTime(
-                startDate.Year + expirationYears,
-                startDate.Month, startDate.Day);
+            startDate.Year + expirationYears, 
+            startDate.Month, startDate.Day);
         return expirationDate;
     }
 }

@@ -28,7 +28,7 @@ public class RawStringLiteral
         """;
 
     public static string InterpolatedRaw(string name)
-                => $$"""
+    => $$"""
         {
           "number": 42,
           "text": "Hello, {{name}}",

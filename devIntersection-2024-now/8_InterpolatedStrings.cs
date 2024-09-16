@@ -1,6 +1,4 @@
-﻿using System.Text.RegularExpressions;
-
-namespace CSharpNow;
+﻿namespace CSharpNow;
 
 public class InterpolatedStringExamples
 {

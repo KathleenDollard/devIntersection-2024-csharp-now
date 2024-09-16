@@ -1,6 +1,6 @@
 ﻿using CSharpNow;
 
-ConditionalPatterns.SomeIntegerPatterns(4);
+MorePatterns.SomeIntegerPatterns(4);
 
 // InterpolatedStrings("Joe", null, new DateOnly(2017, 1, 15), 31_415_926.536m);
 NullableExample.Usage();

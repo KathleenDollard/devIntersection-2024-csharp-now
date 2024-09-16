@@ -15,7 +15,9 @@
 		<Using Remove="System.Net.Http" />
 		<Using Remove="System.Threading" />
 		<Using Remove="System.Threading.Tasks" />
-		<Using Include="CSharpNowX" />
+		<!-- Since this next namespace does not exist, 
+		     uncommenting it gives a compiler error-->
+		<!--<Using Include="CSharpNowX" />-->
 	</ItemGroup>
-
+		
 </Project>
